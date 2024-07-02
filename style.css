@@ -1,0 +1,87 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+
+
+body{
+    background-color: black;
+    color: white;
+}
+
+
+
+.nave{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "DIN Next Rounded LT W01 Light";
+    margin-top: 30px;
+    margin-bottom: -40px;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+.gif{
+
+    margin-top: 0px;
+    object-fit: cover;
+    display: flex;
+    z-index: 0;
+    position: relative  ;
+}
+.ERSOET{
+    margin-top: -150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    object-fit: cover;
+    display: flex;
+    z-index: 1;
+    position: relative  ;
+}
+.nave2{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "DIN Next Rounded LT W01 Light";
+    margin-top: 30px;
+    margin-bottom: -20px;
+    align-items: center;
+}
+
+
+.lojas{
+    padding-left: 10px;
+    list-style: none;
+    display: flex;
+    font-weight: 1000;
+    font-size: 25px;
+
+}
+
+.lojas>li>a{
+    padding-left: 20px;
+    font-family: "DIN Next Rounded LT W01 Light";
+    color: white;
+    text-decoration: none;
+    
+}
+.from{
+    padding-left: 10px;
+    list-style: none;
+    display: flex;
+    font-weight: 1000;
+    font-size: 25px;
+}
+.from>li>a{
+    padding-left: 40px;
+    font-family: "DIN Next Rounded LT W01 Light";
+    color: white;
+    text-decoration: none;
+    
+}
+
+
