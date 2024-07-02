@@ -11,6 +11,7 @@
 body{
     background-color: black;
     color: white;
+    height: 2000;
 }
 
 
@@ -51,6 +52,35 @@ body{
     margin-bottom: -20px;
     align-items: center;
 }
+h1{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "DIN Next Rounded LT W01 Light";
+    margin-top: 90px;
+    margin-bottom: -20px;
+    align-items: center;
+    font-size: 50px;
+}
+h2{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "DIN Next Rounded LT W01 Light";
+    margin-top: 90px;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+h3{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "DIN Next Rounded LT W01 Light";
+
+    margin-bottom: 100px;
+    align-items: center;
+
+}
+
+
 
 
 .lojas{
@@ -81,7 +111,15 @@ body{
     font-family: "DIN Next Rounded LT W01 Light";
     color: white;
     text-decoration: none;
-    
 }
+.area{
+    align-items: center;
+    margin-top: 0px;
+    object-fit: cover;
+    display: flex;
+    z-index: 0;
+    position: relative  ;
+}
+
 
 
